@@ -22,7 +22,7 @@ public class ComputeAndInterpretBMI {
 		// Calculate user's BMI.
 		double userBMI = convertedWeight/(convertedHeight * convertedHeight);
 		
-//		Testing if statements:
+//		Testing if-statements:
 //		System.out.println("What is the BMI?");
 //		double userBMI = input.nextDouble();
 		
