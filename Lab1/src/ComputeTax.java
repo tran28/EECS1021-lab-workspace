@@ -63,7 +63,6 @@ public class ComputeTax {
 				tax = part1;
 				System.out.println(name + ", you should pay $" + tax);
 				System.out.println("Calculation is based on the scheme of Married Filing:");
-				System.out.println(name + ", you should pay $" + tax);
 				System.out.println("Part I: $" + part1);
 			}
 			else if(16700 < income && income <= 67900) {
