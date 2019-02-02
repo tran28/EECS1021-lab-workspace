@@ -31,9 +31,11 @@ public class Blink extends HardwareInterface
 		// Your Task: Modify the two branching conditions.
 		if((counter % 3) == 0 || (counter % 3) == 1) {
 			this.pinState = true;
+			System.out.println(counter);
 		}
 		else if((counter % 3) == 2) {
 			this.pinState = false;
+			System.out.println(counter);
 		}
 		counter++;
 		// Do not touch this line.
