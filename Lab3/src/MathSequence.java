@@ -44,7 +44,7 @@ public class MathSequence {
 				System.out.println("Would you like to process another sequence? (Y/N)");
 				choice = input.nextLine();
 			}
-			else if(task.contentEquals("2")) {
+			else if(task.equals("2")) {
 				
 				System.out.println("Enter the first term in the geometric sequence:");
 				int firstTerm = input.nextInt();
