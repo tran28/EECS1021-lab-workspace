@@ -16,9 +16,11 @@ public class DetermineFibSeq {
 			while(userInt != -1 && i < 20) {
 				userSeq[i] = userInt;
 				i++;
-				System.out.println("Enter a postive integer value, or -1 to stop:");
-				userInt = input.nextInt();
-				input.nextLine();
+				if(i < 20) {
+					System.out.println("Enter a postive integer value, or -1 to stop:");
+					userInt = input.nextInt();
+					input.nextLine();
+				}
 			}
 			
 			// Case 1: sequence size of 1 -- check specifically
@@ -40,7 +42,7 @@ public class DetermineFibSeq {
 				System.out.println(" is the first " + i + " numbers in the Fibonacci sequence");
 			}
 			// Case 3: sequence size of 3 or more -- check using formula 
-			else if(i > 2) {
+			else if(i > 2 && userSeq[0] == 1 && userSeq[1] == 1) {
 				// Checking Fibonacci conditions:
 				boolean isFibSeq = true;
 				for(int j = 2; j < i && isFibSeq; j++) {
