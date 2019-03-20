@@ -2,7 +2,7 @@
 public class MergeArray {
 
 	public static void main(String[] args) {
-		int[] seq1 = {};
+		int[] seq1 = {-100, 1, 300};
 		int[] seq2 = {2, 6, 11, -7, -80, 0, 2};
 		
 		int length = seq1.length + seq2.length;
