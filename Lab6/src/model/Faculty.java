@@ -1,12 +1,17 @@
 package model;
 
+/*
+ * Each Faculty member has their name, campus address, and campus phone extension (e.g., 70310).
+ */
 public class Faculty {
-	
+	/*
+	 * Attributes
+	 */
 	public String name;
 	public String address;
 	public int extension;
 	
-	public Faculty(String name, String address, int extension){
+	public Faculty(String name, String address, int extension) {
 		this.name = name;
 		this.address = address;
 		this.extension = extension;
@@ -38,7 +43,7 @@ public class Faculty {
 	
 	public String getDescription() {
 		String result = "";
-		result = "Falculty " + this.name + " has campus address "+ this.address + " and phone extension " + this.extension;
+		result = "(Faculty " + this.name + " has campus address " + this.address + " and phone extension " + this.extension + ")";
 		return result;
 	}
 }

@@ -6,6 +6,7 @@ import model.Student;
 public class StudentTester {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		
 		CourseRecord cr1 = new CourseRecord("2030");
 		CourseRecord cr2 = new CourseRecord("1021");
